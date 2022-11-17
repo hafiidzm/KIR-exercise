@@ -1,0 +1,42 @@
+:root {
+  /* ======== FONTS ========= */
+  --fonts-h1: 'Montserrat', sans-serif;
+  --fonts-p: 'Poppins', sans-serif;
+  --fonts-other: 'Open Sans', sans-serif;
+
+  --fontweight-h1: 500;
+  --fontweight-p: 400;
+
+
+  /* ========= COLOR ============ */
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  float: right;
+}
+
+.navbar a {
+  font-size: 30px;
+  color: rgb(26, 26, 26);
+  font-family: var(--fonts-other);
+  font-weight: var(--fontweight-h1);
+  margin: ;
+}
